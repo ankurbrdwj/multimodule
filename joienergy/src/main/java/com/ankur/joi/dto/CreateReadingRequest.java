@@ -3,6 +3,6 @@ package com.ankur.joi.dto;
 import java.util.List;
 
 public class CreateReadingRequest {
-    Long smartMeterId;
+    String smartMeterId;
     List<ElectricityReading> electricityReadings;
 }
